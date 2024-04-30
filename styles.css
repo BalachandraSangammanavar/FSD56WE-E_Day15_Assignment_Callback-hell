@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 3rem;
+    color: green;
+    margin: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #countdown {
+        font-size: 2rem;
+    }
+}
